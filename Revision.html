@@ -1,0 +1,142 @@
+<html>
+
+<head>
+
+<title>HTML, CSS & JavaScript Revision</title>
+
+<link rel="stylesheet" href="layoutstyle.css" type="text/css">
+
+</head>
+
+<body style="background-color: #00FFFF">
+
+<div id="wrapper">
+
+<div id="header">
+
+<h1>HTML, CSS & JavaScript Revision</h1>
+
+</div>
+
+<div id="navigation">
+
+<ul>
+
+<li><a href="home.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="products.html">Our Products</a></li>
+
+<li><a href="contact.html">Contact us</a></li>
+
+</ul>
+
+</div>
+
+<div id="content-container">
+
+<div id="main">
+
+<h2>Main Content</h2>
+
+<p>This is a revision for HTML, CSS and JavaScript. Submission for Lab Exercise Week 7.  </p>
+
+<p>Developer: MUHAMMAD WAFIYUDDIN BIN ROHANIZAM</p>
+<p>Matrix Number: B031710286</p>
+
+<hr></hr>
+
+<img src="tenor.gif" alt="Cheerleader Bear" width="100" height="100"> <b>Welcome to my page!</b>
+
+<h3>This is my team members for group project.</h3>
+
+<table border= “1”>
+
+<tr> <th> Name </th> <th> Matrix Number </th> </tr>
+
+<tr> <td> UMMU BALQIS BINTI SAHMSUDIN </td> <td> B031710224 </td> </tr>
+
+<tr> <td> MUHAMMAD WAFIYUDDIN BIN ROHANIZAM </td> <td> B031710286 </td> </tr>
+
+<tr> <td> ZULFARKHAN BIN ZAHRI </td> <td> B031710422 </td> </tr>
+
+<tr> <td> MUHAMMAD FAHMY AKMAL BIN ZAMRI </td> <td> B031710063 </td> </tr>
+
+</table>
+
+<p>This is <sup>superscripted</sup> text</p>
+
+<p>This is <sub>subscripted</sub> text</p>
+
+
+<p>This is my hobby</p>
+
+<ul>
+
+<li>Playing online games (Apex Legends)</li>
+<li>Reading Books</li>
+<li>Listening to music</li>
+
+</ul>
+
+
+<p>I really want to watch this movie someday, click the button for a suprise!</p>
+
+<img id="mulan" src="mulan.jpg" alt="Mulan 2020" width="220" height="277">
+
+<canvas id="imgCanvas" width="230" height="275"
+style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<p><button onclick="imgCanvas()">Click here</button></p>
+
+
+
+<p>Please watch this short video!</p>
+
+<video width="320" height="240" controls>
+  <source src="anime.mp4" type="video/mp4">
+  <!-- <source src="movie.ogg" type="video/ogg"> -->
+  Your browser does not support the video tag.
+</video>
+
+
+<p>Click <a href="http://www.google.com/">here</a> to go to Google</p>
+
+</div>
+
+<div id="side">
+
+<h3>Side Bar Content</h3>
+
+<p>Be our Facebook fan today!</p>
+
+</div>
+
+<div id="footer">
+
+Copyright © GreenShoppers, 2010
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+//Canvas with image
+
+function imgCanvas() {
+  var c = document.getElementById("imgCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("mulan");
+  ctx.drawImage(img,10,10);
+}
+
+</script>
+
+</body>
+
+</html> 
